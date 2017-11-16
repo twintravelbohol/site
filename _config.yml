@@ -1,0 +1,11 @@
+markdown: kramdown
+permalink: pretty
+baseurl: ''
+
+collections: 
+ tour-packages:
+  output: true
+  permalink: /tour-packages/:title
+
+safe: false
+gems: [jekyll-feed]
